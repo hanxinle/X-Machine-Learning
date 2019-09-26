@@ -16,6 +16,7 @@ conda --version
 conda update conda
 
 更新anaconda
+
 conda update anaconda
 
 更新python
@@ -42,7 +43,7 @@ conda deactivate <env_name> | source deactivate <env_name> | activate <env_name>
 
 复制开发环境
 
-conda create -n <env_source_name> --clone <env_clone_name>
+conda create -n <env_clone_name> --clone <env_source_name>
 
 删除环境
 
