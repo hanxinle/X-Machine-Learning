@@ -1,4 +1,4 @@
-# pyhon开发环境配置
+# Pyhon开发环境配置
 
 * 系统 Ubuntu 16.04
 * 版本 Python 3.6
