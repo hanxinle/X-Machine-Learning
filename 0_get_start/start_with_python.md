@@ -10,7 +10,7 @@
 
 conda 版本查看
 
-conda --version 
+```conda --version ```
 
 更新conda
 conda update conda
