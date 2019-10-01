@@ -6,6 +6,32 @@
 相对于系统自带的Python,Anaconda方便对不同的项目进行不同的管理,每个环境可以不同的开发环境,免去了频繁设置的繁琐和包管理,项目移植时环境配置问题.使用Anaconda需要掌握环境管理和package管理.
 这里给出[官方的教程链接](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#specifying-a-location-for-an-environment),下面用中文简要摘抄一些内容.
 
+### 更改Anaconda源为清华源
+
+  
+* 在命令行下输入以下命令
+
+  ```conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/```    
+  
+  ```conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge ```
+  
+  ```conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/```
+
+  ```conda config --set show_channel_urls yes```
+  
+* 在~/.condarc文件添加如下命令
+
+  ```
+  channels:
+     - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+     - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+     - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+     - defaults
+  show_channel_urls: true
+  ```
+    PS:  自带的源下载速度太慢了,进行更改,中科大的源如有许可也可以,需要时自己搜索.
+
+
 ### Anaconda 环境管理
 
 conda 版本查看
