@@ -8,9 +8,7 @@ dataset = pd.read_csv('Data.csv')
 X = dataset.iloc[:, :-1]
 y = dataset.iloc[:, 3]
 
-
 # 处理缺失数据,用均值代替
-
 from sklearn.preprocessing import Imputer
 imputer = Imputer(missing_values = 'NaN', strategy = 'mean', axis = 0)
 imputer = imputer.fit(X.iloc[:, 1:3])
