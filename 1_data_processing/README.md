@@ -1,11 +1,10 @@
 - python 3.6
 - spyder 3.3.6
-
+- jupyter notebook 
 这一节给出了机器学习数据处理所需的流程,包括引用库,加载数据,处理缺失数据,数据分类,数据规模调整等.
 
-XXXX_templete.py 为处理模版,缺失的文件内容有需要从其它单独文件拷贝;
+XXXX_templete.py 为处理模版,使用时遇到不需要的步骤,需要自己注释掉;
 
-xxxx_complete_progress.py 则包括了应用机器学习所需要的所有的步骤,不必要的步骤可以注释
+xxxx_complete_appliaction.py 为一个应用上述模版模版处理数据的实例;
 
-
-感谢Udemy机器学习课的精彩讲解和示例.
+PS:感谢Udemy机器学习课的精彩讲解和提供的示例.
