@@ -1,5 +1,5 @@
 - python 3.6
-- spyder 3.3.6
+- spyder 3.3.6(后来改为了wing pro 6,因为查看帮助文档方便)
 - jupyter notebook 
 
 
