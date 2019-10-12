@@ -21,10 +21,10 @@
 
     在数据表现为线性不可分的情况下,依旧可以采用低维到高维的投射SVM方法,在高维空间中使得数据变得可分,再将分类好的数据映射到原来的维度.在采用高斯核的时候,分子上的常数为核中心,这里的值在高维空间较大,而分母的值控制的是高斯核的半径.其它核函数还有S函数,二元多项式函数,[这里](http://crsouza.com/2010/03/17/kernel-functions-for-machine-learning-applications/)提供一个网站,对核函数方法进一步介绍.
     
-* [朴素贝叶斯分类器Naive Bayes]
+* [朴素贝叶斯分类器Naive Bayes](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification/Naive%20Bayes)
 
      贝叶斯公式中,所求的概率往往是无法直接观察得到的,而等号右边的各项比较容易得到.朴素贝叶斯中"朴素"表征所有数据的特征是独立的(特征之间不会互相影响),这一假设会有误差,但是降低了解决问题的难度.对右边分母P(x)又称似然,在二维求解的时候,通过在新引入数据周围画圈来对其进行求解,同时求得的还包括分子上的条件概率值.应用这一方法时,分母值相同,这个似然值作为分母是可以省略的.
 
-* [决策树]
+* [决策树](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification/%20Decision%20Tree%20Classification)
 
-     在算法没有使用欧式距离时,不需要的使用特征缩放.本例子中,为了后面画图的方便,进行了特征缩放,算是小小的妥协.
+     在算法没有使用欧式距离时,不需要的使用特征缩放.本例子中,为了后面画图的方便,进行了特征缩放,算是小小的妥协.决策树容易产生过拟合,不能忽略训练集中的噪音.
