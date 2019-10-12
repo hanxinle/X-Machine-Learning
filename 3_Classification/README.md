@@ -13,10 +13,10 @@
 
     在<机器学习实战>中已经有所提及,引入该方法的目的是借用S函数的"阶跃"的性质,实际上,在本节所给的示例中,根据年龄\年收入判断用户是否会对SUV有购买倾向也是利用了这一性质,超过50%即认为用户有购买倾向,反之则没有,进而根据模型预测结果对目标客户投放广告,该方法不能理解为二分类.
 
-* [支持向量机(SVM)]
+* [支持向量机SVM](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification/%20Support%20Vector%20Machine%20(SVM))
 
     这一方法,可以视作两个类里面相隔最近的两个个体(support)之间选择一个分类边界,这一边界到达上述两个个体的距离是最大的,它是一个比数据空间少一维的超平面.SVM最特别的一点是,在两个类别里面最极端的个体具有不同于自身类别大多数个体的极端特征(二者往往特征相近),而SVM恰好是类别间最极端特例所得到的.
 
-* [带核函数的支持向量机(Kernel_SVM)]
+* [带核函数的支持向量机Kernel_SVM](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification/Kernel%20SVM)
 
     在数据表现为线性不可分的情况下,依旧可以采用低维到高维的投射SVM方法,在高维空间中使得数据变得可分,再将分类好的数据映射到原来的维度.在采用高斯核的时候,分子上的常数为核中心,这里的值在高维空间较大,而分母的值控制的是高斯核的半径.其它核函数还有S函数,二元多项式函数,[这里](http://crsouza.com/2010/03/17/kernel-functions-for-machine-learning-applications/)提供一个网站,对核函数方法进一步介绍.
