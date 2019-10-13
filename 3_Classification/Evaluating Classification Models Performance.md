@@ -1,5 +1,5 @@
 ## 各种分类模型的优点和缺点
-![image text](./classification models views.jpg)
+![image text](https://github.com/hanxinle/practical_machine_learning/blob/master/3_Classification/classification%20models%20views.jpg)
 
 ## 评估分类模型的表现
 
