@@ -33,7 +33,7 @@
 
      随机森林首先从数据集中选择K个数据放入自身训练集,然后用这些数据训练决策树分类器,第三步重复上述两步过程,得到一定数量的决策树算法.对新的数据点,用所得到的决策树分类算法分别对其进行分类,选择多数决策树得到的类别作为随机森林算法的类别. 这一算法依旧会出现过拟合.
      
-*  [本章小节]
+*  [本章小节](https://github.com/hanxinle/practical_machine_learning/blob/master/3_Classification/Evaluating%20Classification%20Models%20Performance.md)
 
      对每种分类算法优缺点的总结,对分类算法模型性能评估的方法介绍,针对不同任务时不同分类算法取舍及提升模型性能的方法概述.
      
