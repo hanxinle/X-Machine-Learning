@@ -24,7 +24,7 @@
 
 [3 分类](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification)
   
-  这部分数据模拟了SUV销售商对顾客信息的统计,要求将顾客根据是否对SUV有购买倾向将顾客分为两类.各种分类算法的思想如下:
+这部分数据模拟了SUV销售商对顾客信息的统计,要求将顾客根据是否对SUV有购买倾向将顾客分为两类.各种分类算法的思想如下:
   
 * [Logistic Regression](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification/Logistic_Regression)
   
