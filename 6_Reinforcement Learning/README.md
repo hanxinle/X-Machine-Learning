@@ -6,7 +6,7 @@
 
 ### UCB
 
-![image text](https://github.com/hanxinle/practical_machine_learning/edit/master/6_Reinforcement%20Learning/UCB/UCB_Algorithm_Slide_cn.png)
+![image text](https://github.com/hanxinle/practical_machine_learning/blob/master/6_Reinforcement%20Learning/UCB/UCB_Algorithm_Slide_cn.png)
 
 
 如上图,置信区间上界算法,是迭代选择每次置信区间最大的数据,最终使得所有数据逼近自身的置信区间,最后根据置信区间最大值的来执行操作.
