@@ -23,6 +23,7 @@
   这个模型预测新人在原公司的薪水,目前已经得到的数据是原公司关于职位,工作年限和薪水之间的数据,本例子中假定新人的工作年限是6.5年,用新人提供的16000的原薪水与模型预测的新人原来的薪水对比,确定新人提供信息的可信性.因此,数据整体作为训练集,用得到的模型对6.5处于的薪水水平进行预测,最终证明新人提供的薪水数据可信.
 
 [3 分类](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification)
+  
   这部分数据模拟了SUV销售商对顾客信息的统计,要求将顾客根据是否对SUV有购买倾向将顾客分为两类.各种分类算法的思想如下:
   
 * [Logistic Regression](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification/Logistic_Regression)
