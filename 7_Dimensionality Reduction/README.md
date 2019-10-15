@@ -10,7 +10,7 @@
 
 PCA算法过程为:
 
-![image text]()
+![image text](https://github.com/hanxinle/practical_machine_learning/blob/master/7_Dimensionality%20Reduction/PCA/pca_cn.png)
 
 PCA的过程发生在特征缩放之后,拟合模型之前,PCA可以视作数据预处理.
 
