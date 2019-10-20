@@ -7,6 +7,6 @@
 
 XXXX_templete.py 为处理模版,使用时遇到不需要的步骤,需要自己注释掉;
 
-xxxx_complete_appliaction.py 为一个应用上述模版模版处理数据的实例;
+xxxx.py 为一个应用上述模版模版处理数据的实例;
 
 PS:感谢Udemy机器学习课的精彩讲解和提供的示例.
