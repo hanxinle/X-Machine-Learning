@@ -46,7 +46,7 @@
 
   二者皆易产生过拟合,随机森林是决策树集合的投票结果.
   
-* [分类算法的性能评估与改进](https://github.com/hanxinle/practical_machine_learning/blob/master/3_Classification/Evaluating%20Classification%20Models%20Performance.md]
+* [分类算法的性能评估与改进](https://github.com/hanxinle/practical_machine_learning/blob/master/3_Classification/Evaluating%20Classification%20Models%20Performance.md)
 
   总结每种分类算法的特点,提出算法选择的策略及改进建议.
 
