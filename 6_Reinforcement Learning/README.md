@@ -4,7 +4,7 @@
 
 如果得到期望的结果，机器会得到奖励，反之则会得到惩罚。通过这个试错的过程，机器可以学到如何对已有的信息作出决策。
 
-### UCB
+### [UCB](https://github.com/hanxinle/practical_machine_learning/tree/master/6_Reinforcement%20Learning/UCB)
 
 ![image text](https://github.com/hanxinle/practical_machine_learning/blob/master/6_Reinforcement%20Learning/UCB/UCB_Algorithm_Slide_cn.png)
 
@@ -19,7 +19,7 @@
 作为对比,同时附上随机算法对每个用户投放广告,得到每个广告被选取次数的直方统计.可以看到,随机算法说明,10000个用户对每个广告的点击数几乎是平均的,约为1000.
 
 
-### Thompson Sampling
+### [Thompson Sampling](https://github.com/hanxinle/practical_machine_learning/tree/master/6_Reinforcement%20Learning/Thompson_Sampling)
 
 这一算法的基础是贝叶斯推断,beta分布.预测每个选择的期望,每一轮生成每个数据的期望,选择最大的return值,调整该数据的数据期望,再重新生成每个数据的数学期望,
 
