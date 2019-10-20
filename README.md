@@ -1,4 +1,4 @@
-# 机器学习的应用
+# 实践机器学习
 
 我将机器学习方法分为三类,回归\分类\聚类,这三类算法涵盖了大多数的机器学习算法,回归的结果是实数(整数+小数),分类的结果可以视作整数(label),聚类是对数据的 整理.
 
@@ -33,6 +33,24 @@
 * [支持向量机SVM](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification/%20Support%20Vector%20Machine%20(SVM))
   
   SVM可以视作两个类里面相隔最近的两个个体(support)之间选择一个分类边界,这两个个体到达这一边界的距离和是最大的,它是一个比数据空间少一维的超平面.SVM最特别的一点是,在两个类别里面最极端的个体具有不同于自身类别大多数个体的极端特征(二者往往特征相近),而SVM恰好是类别间最极端特例所得到的.
+
+* [核方法支持向量机](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification/Kernel%20SVM)
+
+  对线性不可分的数据,通过核函数将数据维度变为可分维度的SVM算法.
+  
+* [朴素贝叶斯Naive Bayes](https://github.com/hanxinle/practical_machine_learning/tree/master/3_Classification/Naive%20Bayes)
+
+  对独立分布的案例,将相对复杂问题的求解转化为通过相对容易得到的统计数据的结果统计.
+  
+* [决策树与随机森林]
+
+  二者皆易产生过拟合,随机森林是决策树集合的投票结果.
+  
+* [分类算法的性能评估与改进](https://github.com/hanxinle/practical_machine_learning/blob/master/3_Classification/Evaluating%20Classification%20Models%20Performance.md]
+
+  总结每种分类算法的特点,提出算法选择的策略及改进建议.
+
+  
   
   
   
