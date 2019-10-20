@@ -52,7 +52,36 @@
 
   在这个分类任务中,基于核方法的SVM和贝叶斯分类曲线平滑,且没有过拟合现象,其分类结果好于决策树和随机森林算法.这不说明几种算法的优劣,实际上,算法性能和数据质量\特征\任务类型\参数设置等因素有关.
 
+[4 集群](https://github.com/hanxinle/practical_machine_learning/blob/master/4_Clustering/README.md)
+
+  集群（clustering）与分类（classification）虽然有许多相似之处，它们的核心思想大有不同。在集群中，我们并没有对数据的预期，也缺乏对数据结构的了解；我们的目标是把数据分成不同的群或类（cluster），使得在同一个类中的数据都有相似的属性。集群算法可以探测出人类直觉难以体察到的数据结构，并将其直接运用于集群聚类。
+
+[5 关联规则](https://github.com/hanxinle/practical_machine_learning/tree/master/5_Apriori)
+
+  在现实世界获取数据的时候,有时会发觉一个现象,即数据之间的存在某种关联,如用户的不同行为之间存在关联,如爱屋及乌,喜欢事务A总是伴随着对事务B的喜欢.
+另一个经典的示例就是那个丈夫买了尿布,往往还会买啤酒,商场会发现尿布的销量和啤酒的销量是正相关的.如果数据类型增多,如何找出数据中的这类规律,就是先验算法的作用.
+
+* [Apriori](https://github.com/hanxinle/practical_machine_learning/tree/master/5_Apriori)
   
+  本章的例子是介绍一家法国杂货店如何利用关联规则如何提升自己的销售额,他们将商品间具有强提升度的商品放在一起,进而提升商品销量.
+
+[6 强化学习]
+
+   强化学习主要解决的问题是机器如何根据某一时刻的信息决定下一时刻需要采取的行动。强化学习也被运用在人工智能领域，比如说让机器人学习如何走路。机器在作出决策之后，如果得到期望的结果，机器会得到奖励，反之则会得到惩罚。通过这个试错的过程，机器可以学到如何对已有的信息作出决策。
+
+  这一节的例子是商家投放了10个广告,每个广告代表一种商品使用场景,我们的任务是决定投放哪个广告.这个数据不仅仅是要求选中的广告的点击率最大,而且要针对第n个用户决定投放哪个广告,从而确保该广告的点击次数是最大的,数据来源并非投放广告前的统计,而是一种模拟数据,模拟了10000个用户对每个广告的点击情况.
   
+* [置信区间上界 UCB](https://github.com/hanxinle/practical_machine_learning/tree/master/6_Reinforcement%20Learning/UCB)
+* [Thompson抽样算法](https://github.com/hanxinle/practical_machine_learning/tree/master/6_Reinforcement%20Learning/Thompson_Sampling)
   
+[7 降维](https://github.com/hanxinle/practical_machine_learning/tree/master/7_Dimensionality%20Reduction)
+
+  在多元线性回归中所采用的技术是特征选择,特征选择减少的是自变量的个数,这一方法不对初始的数据集的数据进行更改.降维所得到的自变量不包含在原数据的自变量中,而是由数据的特性抽取得到的新的自变量.
+  
+  本章涉及两个算法PCA和kernel-pac.数据的自变量是不同红酒的多个化学成分,因变量是客户分类.参数p的确定取决与p能解释多少自变量的方差,需要在编码中先测试再选择函数赋值,初始值等于原自变量数量.本课程的例子确定了2个新自变量,可以拟合56%的方差.
+  
+[8 模型选择](https://github.com/hanxinle/practical_machine_learning/tree/master/8_Model%20Selection)
+
+  这一章提到两个算法,交叉验证(Cross Validation)和网格搜索(Grid Search).交叉验证,是不改变超参数的情况下,通过数据集不同的划分,评估模型的性能.网格搜索是将所有可选参数带入模型,评估每个参数下的模型性能,确定最佳模型的参数设置.
+
   
