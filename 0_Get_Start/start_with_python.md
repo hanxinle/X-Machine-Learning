@@ -68,9 +68,13 @@ x.x 指定了Python的版本,可在后面跟着包的名字,创建环境时自�
 
 共享开发环境,网络教材场会提供.yml文件,即可完成开发环境共享,跟着作者说明执行相应命令.
 
-复制开发环境
+复制环境
 
 ```conda create -n <env_clone_name> --clone <env_source_name>```
+
+共享环境
+
+```conda env > xxx.yml```
 
 删除环境
 
