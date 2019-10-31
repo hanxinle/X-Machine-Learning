@@ -2,7 +2,7 @@
 
 我将机器学习方法分为三类,回归\分类\聚类,这三类算法涵盖了大多数的机器学习算法,回归的结果是实数(整数+小数),分类的结果可以视作整数(label),聚类是对数据的 整理.
 
-[0 环境配置(Python版)](https://github.com/hanxinle/practical_machine_learning/tree/master/0_Get_Start)
+[0 环境配置(Python版)](https://github.com/hanxinle/practical_machine_learning/blob/master/0_Get_Start/start_with_python.md)
 
 [1 数据的预处理](https://github.com/hanxinle/practical_machine_learning/tree/master/1_Data_Processing)
 
