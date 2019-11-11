@@ -127,3 +127,21 @@ x.x 指定了Python的版本,可在后面跟着包的名字,创建环境时自�
 ### jupyter notebook使用教程
 
 [(转)jupyter notebook教程](https://jackpopc.github.io/2019/09/14/jupyter/)
+
+* shift + tab ,打开函数帮助
+
+* notebook 开启代码自动补全 
+安装
+如果之前安装过显示目录功能的话，这一步骤可以跳过。
+pip install jupyter_contrib_nbextensions
+
+配置
+安装完之后需要配置 nbextension，注意配置的时候要确保已关闭 Jupyter Notebook：
+jupyter contrib nbextension install --user --skip-running-check
+
+启动 Jupyter Notebook，勾选设置
+上面两个步骤都没报错后，启动 Jupyter Notebook，上面选项栏会出现 Nbextensions 的选项
+
+
+点开 Nbextensions 的选项，并勾选 Hinterland
+
