@@ -30,6 +30,28 @@
   show_channel_urls: true
   ```
     PS:  自带的源下载速度太慢了,进行更改,中科大的源如有许可也可以,需要时自己搜索.
+    
+*  后来我的设置
+  
+  直接在[清华Anaconda镜像站]首页,拷贝了以下内容,存入到.condarc
+  
+  
+  ```
+  channels:
+  - defaults
+show_channel_urls: true
+default_channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+custom_channels:
+  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  ```
 
 
 ### Anaconda 环境管理
