@@ -139,9 +139,9 @@ x.x 指定了Python的版本,可在后面跟着包的名字,创建环境时自�
 
 ```anaconda search -t conda <package_name>```
 
-可以看到以列表形式给出了所有相关的库,注意查看支持的Python版本和操作系统,在name中,复制内容到下面的参数<>中,
+可以看到以列表形式给出了所有相关的库,注意查看支持的Python版本和操作系统,选定要安装的包后,将列表第一列的名字复制内容到下面的参数<usr_name/package_name>中,
 
-```anaconda show <name_value>```
+```anaconda show <usr_name/package_name>```
 
 此时会给出package的版本信息,注意最后一句,会给出安装命令,执行即可安装.
 
