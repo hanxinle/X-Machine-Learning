@@ -53,7 +53,7 @@ custom_channels:
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   ```
 
-
+y
 ### Anaconda 环境管理
 
 conda 版本查看
@@ -89,6 +89,8 @@ x.x 指定了Python的版本,可在后面跟着包的名字,创建环境时自�
 ```conda deactivate <env_name> | source deactivate <env_name> | activate <env_name>```
 
 共享开发环境,网络教材场会提供.yml文件,即可完成开发环境共享,跟着作者说明执行相应命令.
+
+```conda env create -f environment.yml```
 
 复制环境
 
