@@ -150,7 +150,7 @@ x.x 指定了Python的版本,可在后面跟着包的名字,创建环境时自�
 
 ### jupyter notebook使用教程
 
-[(转)jupyter notebook教程](https://jackpopc.github.io/2019/09/14/jupyter/)
+[jupyter notebook教程]([https://jackpopc.github.io/2019/09/14/jupyter/](https://zhuanlan.zhihu.com/p/33105153))
 
 * shift + tab ,打开函数帮助
 
