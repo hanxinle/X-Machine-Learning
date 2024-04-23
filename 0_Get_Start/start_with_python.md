@@ -53,7 +53,6 @@ custom_channels:
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   ```
 
-y
 ### Anaconda 环境管理
 
 conda 版本查看
@@ -87,6 +86,11 @@ x.x 指定了Python的版本,可在后面跟着包的名字,创建环境时自�
 ```conda activate <env_name> | source activate <env_name> | activate <env_name>```
 
 ```conda deactivate <env_name> | source deactivate <env_name> | activate <env_name>```
+
+指定路径创建环境
+```conda create --prefix=c:\anaconda\env\pytorch1```
+
+pytorch1 就是我们指定的名字，但是在最新版的操作中发现名字会被命名为 --prefix 的参数.
 
 共享开发环境,网络教材场会提供.yml文件,即可完成开发环境共享,跟着作者说明执行相应命令.
 
